@@ -16,7 +16,7 @@ const SearchBar = ({ searchItem, totalImages, pageDefault }) => {
   return (
     <div>
       <form onSubmit={onsubmit}>
-        <h1 className="title"><i>ImageBox</i></h1>
+        {/* <h1 className="title"><i>ImageBox</i></h1> */}
         <div className="searchWrapper">
           <input type="search" className="search" placeholder="Search images..." value={input}
             onChange={(e) => setinput(e.target.value)} />

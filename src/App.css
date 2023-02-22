@@ -15,17 +15,18 @@ body{
     padding: 30px;
 }
 
-.title{
+/* .title{
     position: absolute;
     top: 12px;
     left: 10px;
-    font-size: 35px;
-    font-weight: 600;
-    font-family: 'Segoe Script';
-    color: #A6E3E9;
-    /* text-shadow: 0px 0px 20px black; */
-    text-shadow: 6px 6px 6px black;
-}
+    font-size: 45px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+    border-bottom: 3px solid black;
+    text-shadow: 5px 0px 3px #A6E3E9;
+} */
+
 .cardWrapper {
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;
@@ -100,7 +101,7 @@ img {
 
 .searchWrapper {
     height: 40px;
-    margin-top: 25px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
